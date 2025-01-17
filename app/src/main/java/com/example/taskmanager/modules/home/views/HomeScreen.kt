@@ -34,7 +34,7 @@ fun HomeScreen(
         Box(
             modifier = Modifier.padding(paddingValues)
         ) {
-
+            Tasks(navController = navController)
         }
     }
 }
